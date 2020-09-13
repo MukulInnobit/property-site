@@ -12,9 +12,4 @@ export class PropertyCardComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {}
 
-  Property: any = {
-    Id: 1,
-    Type: "House",
-    Price: 12000,
-  };
 }
