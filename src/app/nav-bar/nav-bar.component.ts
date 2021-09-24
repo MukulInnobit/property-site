@@ -9,6 +9,10 @@ export class NavBarComponent implements OnInit {
 
   constructor() { }
 
+  check(){
+    window.location.assign("http://localhost:4200/add-property")
+  }
+
   ngOnInit() {
   }
 
