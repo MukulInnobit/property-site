@@ -1,5 +1,5 @@
 <div class="row">
   <div *ngFor="let obj of Properties" class="shadow-lg col-sm-4 p-3">
-    <app-property-card></app-property-card>
+    <app-property-card [properties]="obj"></app-property-card>
   </div>
 </div>
